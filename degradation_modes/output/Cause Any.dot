@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Mounting 1-axis tracker <= 0.5\ngini = 0.3875\nsamples = 11046\nvalue = [2903, 8143]\nclass = Has degradation", fillcolor="#399de5a4"] ;
+1 [label="gini = 0.4354\nsamples = 7785\nvalue = [2493, 5292]\nclass = Has degradation", fillcolor="#399de587"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.2198\nsamples = 3261\nvalue = [410, 2851]\nclass = Has degradation", fillcolor="#399de5da"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
